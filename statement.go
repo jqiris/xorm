@@ -351,9 +351,6 @@ func (statement *Statement) buildUpdates(bean interface{},
 				continue
 			}
 		case reflect.String:
-			if !requiredField && fieldValue.String() == "" {
-				continue
-			}
 			// for MyString, should convert to string or panic
 			if fieldType.String() != reflect.String.String() {
 				val = fieldValue.String()
@@ -361,19 +358,10 @@ func (statement *Statement) buildUpdates(bean interface{},
 				val = fieldValue.Interface()
 			}
 		case reflect.Int8, reflect.Int16, reflect.Int, reflect.Int32, reflect.Int64:
-			if !requiredField && fieldValue.Int() == 0 {
-				continue
-			}
 			val = fieldValue.Interface()
 		case reflect.Float32, reflect.Float64:
-			if !requiredField && fieldValue.Float() == 0.0 {
-				continue
-			}
 			val = fieldValue.Interface()
 		case reflect.Uint8, reflect.Uint16, reflect.Uint, reflect.Uint32, reflect.Uint64:
-			if !requiredField && fieldValue.Uint() == 0 {
-				continue
-			}
 			t := int64(fieldValue.Uint())
 			val = reflect.ValueOf(&t).Interface()
 		case reflect.Struct:
