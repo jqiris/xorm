@@ -22,13 +22,13 @@ Xorm is a simple and powerful ORM for Go.
 
 * Query Cache speed up
 
-* Database Reverse support, See [Xorm Tool README](https://github.com/go-xorm/cmd/blob/master/README.md)
+* Database Reverse support, See [Xorm Tool README](https://github.com/jqiris/cmd/blob/master/README.md)
 
 * Simple cascade loading support
 
 * Optimistic Locking support
 
-* SQL Builder support via [github.com/go-xorm/builder](https://github.com/go-xorm/builder)
+* SQL Builder support via [github.com/jqiris/builder](https://github.com/jqiris/builder)
 
 * Automatical Read/Write seperatelly
 
@@ -453,7 +453,7 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
     * BufferSize on Iterate
     * fix some other bugs.
 
-[More changes ...](https://github.com/go-xorm/manual-en-US/tree/master/chapter-16)
+[More changes ...](https://github.com/jqiris/manual-en-US/tree/master/chapter-16)
 
 ## Cases
 

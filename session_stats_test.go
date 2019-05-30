@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/go-xorm/builder"
+	"github.com/jqiris/builder"
 	"github.com/stretchr/testify/assert"
 )
 

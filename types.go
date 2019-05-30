@@ -7,7 +7,7 @@ package xorm
 import (
 	"reflect"
 
-	"github.com/go-xorm/core"
+	"github.com/jqiris/core"
 )
 
 var (

@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/go-xorm/builder"
-	"github.com/go-xorm/core"
+	"github.com/jqiris/builder"
+	"github.com/jqiris/core"
 )
 
 // Exist returns true if the record exist otherwise return false

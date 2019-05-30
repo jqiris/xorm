@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-xorm/core"
+	"github.com/jqiris/core"
 )
 
 type sessionType int

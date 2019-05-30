@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/go-xorm/core"
+	"github.com/jqiris/core"
 )
 
 // Ping test if database is ok

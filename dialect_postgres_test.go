@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/go-xorm/core"
+	"github.com/jqiris/core"
 	"github.com/jackc/pgx/stdlib"
 	"github.com/stretchr/testify/assert"
 )

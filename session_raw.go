@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/go-xorm/builder"
-	"github.com/go-xorm/core"
+	"github.com/jqiris/builder"
+	"github.com/jqiris/core"
 )
 
 func (session *Session) queryPreprocess(sqlStr *string, paramStr ...interface{}) {

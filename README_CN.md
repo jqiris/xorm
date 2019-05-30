@@ -492,7 +492,7 @@ res, err := engine.Transaction(func(session *xorm.Session) (interface{}, error) 
     * `Iterate` 支持 `BufferSize` 
     * 修正部分Bug
 
-[更多更新日志...](https://github.com/go-xorm/manual-zh-CN/tree/master/chapter-16)
+[更多更新日志...](https://github.com/jqiris/manual-zh-CN/tree/master/chapter-16)
 
 ## LICENSE
 

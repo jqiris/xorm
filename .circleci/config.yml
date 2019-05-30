@@ -35,8 +35,8 @@ jobs:
       - checkout
 
       - run: go get -t -d -v ./...
-      - run: go get -u github.com/go-xorm/core
-      - run: go get -u github.com/go-xorm/builder
+      - run: go get -u github.com/jqiris/core
+      - run: go get -u github.com/jqiris/builder
       - run: GO111MODULE=off go build -v
       - run: GO111MODULE=on go build -v
 

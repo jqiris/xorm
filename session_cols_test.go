@@ -7,7 +7,7 @@ package xorm
 import (
 	"testing"
 
-	"github.com/go-xorm/core"
+	"github.com/jqiris/core"
 	"github.com/stretchr/testify/assert"
 )
 

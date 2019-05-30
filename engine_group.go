@@ -8,7 +8,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/go-xorm/core"
+	"github.com/jqiris/core"
 )
 
 // EngineGroup defines an engine group

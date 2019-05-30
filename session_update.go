@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-xorm/builder"
-	"github.com/go-xorm/core"
+	"github.com/jqiris/builder"
+	"github.com/jqiris/core"
 )
 
 func (session *Session) cacheUpdate(table *core.Table, tableName, sqlStr string, args ...interface{}) error {

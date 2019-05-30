@@ -7,7 +7,7 @@ package xorm
 import (
 	"sync"
 
-	"github.com/go-xorm/core"
+	"github.com/jqiris/core"
 )
 
 var _ core.CacheStore = NewMemoryStore()

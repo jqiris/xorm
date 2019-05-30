@@ -9,7 +9,7 @@ import (
 	"io"
 	"log"
 
-	"github.com/go-xorm/core"
+	"github.com/jqiris/core"
 )
 
 // default log options

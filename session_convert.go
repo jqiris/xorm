@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-xorm/core"
+	"github.com/jqiris/core"
 )
 
 func (session *Session) str2Time(col *core.Column, data string) (outTime time.Time, outErr error) {
