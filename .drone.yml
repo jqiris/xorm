@@ -1,6 +1,6 @@
 workspace:
   base: /go
-  path: src/github.com/go-xorm/xorm
+  path: src/github.com/jqiris/xorm
 
 clone:
   git:

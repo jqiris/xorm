@@ -30,7 +30,7 @@ jobs:
 
       - image: pingcap/tidb:v2.1.2
 
-    working_directory: /go/src/github.com/go-xorm/xorm
+    working_directory: /go/src/github.com/jqiris/xorm
     steps:
       - checkout
 
